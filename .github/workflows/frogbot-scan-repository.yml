@@ -28,3 +28,4 @@ jobs:
           JF_PROJECT: ${{ vars.JF_PROJECT }}
           # The GitHub token automatically generated for the job
           JF_GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JF_GIT_BASE_BRANCH: ${{ matrix.branch }}
