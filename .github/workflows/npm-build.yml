@@ -28,7 +28,7 @@ jobs:
           JF_URL: https://${{ vars.JF_URL }}/
           JF_PROJECT: ${{ vars.JF_PROJECT }}
         with:
-            oidc-provider-name: jfrog-github-oidc
+            oidc-provider-name: shani-frogbot-integration
       
       # This command adds a new server configuration to the JFrog CLI   
       - run: |
