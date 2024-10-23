@@ -18,7 +18,7 @@ jobs:
         # The repository scanning will be triggered periodically on the following branches.
         branch: ["dev"]
     steps:
-      - uses: jfrog/frogbot@v2
+      - uses: jfrog/frogbot@5d9c42c30f1169d8be4ba5510b40e75ffcbbc2a9 #jfrog/frogbot@v2
         with:
           oidc-provider-name: shani-frogbot-integration
         env:
